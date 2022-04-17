@@ -1,0 +1,108 @@
+:root {
+    --color-green-btn: #58bc4f;
+    --color-green-variant-btn: #30682b;
+    --color-blue-btn: #17bdd5;
+    --color-blue-variant-btn: #0d7484;
+    --color-red-btn: #cf5955;
+    --color-red-variant-btn: #803634;
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+input,
+label {
+    display: block;
+}
+
+textarea {
+    font-size: 16px;
+    resize: none;
+    padding-top: 0.2rem;
+    text-indent: 0.2rem;
+    width: 100%;
+}
+
+input {
+    font-size: 16px;
+    height: 40px;
+    text-indent: 0.2rem;
+}
+
+select {
+    font-size: 16px;
+    height: 44px;
+    text-indent: 0.2rem;
+}
+
+label {
+    margin-bottom: 0.2rem;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.2rem;
+    color: var(--color-white);
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.blue-btn {
+    background-color: var(--color-blue-btn);
+}
+
+.blue-btn:hover {
+    background-color: var(--color-blue-variant-btn);
+}
+
+.red-btn {
+    background-color: var(--color-red-btn);
+}
+
+.red-btn:hover {
+    background-color: var(--color-red-variant-btn);
+}
+
+.green-btn {
+    background-color: var(--color-green-btn);
+}
+
+.green-btn:hover {
+    background-color: var(--color-green-variant-btn);
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    padding: 1rem 2rem;
+}
+
+.max-width {
+    width: 100%;
+}

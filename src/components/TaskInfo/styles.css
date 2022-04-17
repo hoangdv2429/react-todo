@@ -1,0 +1,9 @@
+form div {
+    margin-bottom: 2rem;
+}
+
+.inline {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 1.2rem;
+}
